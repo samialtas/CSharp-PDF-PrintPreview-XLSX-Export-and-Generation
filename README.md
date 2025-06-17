@@ -109,7 +109,7 @@ This project provides a solid foundation, but there are many exciting ways it ca
 
 ## 🛠️ How to Run
 
-1.  Clone the repository: `git clone https://github.com/your-username/your-repo-name.git`
+1.  Clone the repository: `git clone https://github.com/samialtas/CSharp-PDF-XLSX-PrintPreview-Export-and-Generation.git`
 2.  Open the solution file (`.sln`) in Visual Studio.
 3.  Build and run the project (F5).
 
