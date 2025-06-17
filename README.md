@@ -6,7 +6,7 @@ The entire rendering pipeline is **built from scratch with zero third-party libr
 
 ## ✨ Key Features
 
-*   **Consistent Output (True WYSIWYG):** The layout, fonts, and positioning are pixel-perfect and identical across all three output formats. What you see in the **WinForms PrintPreview** is *truly* what you get in the final PDF and XLSX files.
+*   **Consistent Output:** The layout, fonts, and positioning are pixel-perfect and identical across all three output formats. What you see in the **WinForms PrintPreview** is *truly* what you get in the final PDF and XLSX files.
 *   **Zero Dependencies:** No Nuget packages, no external libraries. Just pure .NET Framework and P/Invoke calls. The PDF and XLSX writers are built from the ground up.
 *   **Unified Codebase:** A single drawing method (`DrawContent`) defines the report's appearance. No need to write separate, format-specific code for PDF, Excel, and printing.
 *   **Shared Page Setup:** Page settings (margins, orientation, paper size) from a single `PageSetupDialog` are respected and replicated by all export formats.
