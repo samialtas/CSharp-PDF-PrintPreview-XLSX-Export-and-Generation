@@ -93,7 +93,7 @@ While powerful libraries like **QuestPDF**, **iText**, and **ClosedXML** are the
 This project provides a solid foundation, but there are many exciting ways it can be extended. Here are some of the planned and potential features for the future:
 
 #### 🎨 Core Drawing Features
-*   **Implement Image Support:** Add a `DrawImage` command to the `GraphicsRecorder` and implement the logic to embed image data (JPEG, PNG) into both PDF and XLSX files while maintaining the WYSIWYG principle and embedding necessary color profiles to generated PDF files.
+*   **Implement Image Support:** Add a `DrawImage` command to the `GraphicsRecorder` and implement the logic to embed image data (JPEG, PNG) into both PDF and XLSX files and embedding necessary color profiles to generated PDF files.
 *   **Support for Additional Shapes:** Extend the system to handle other GDI+ primitives like `DrawEllipse`, `DrawArc`, and `DrawPolygon` for more complex diagrams and charts.
 *   **Improve Text Handling:** Add support for more advanced text rendering, such as text alignment (center/right), rotated text, and styles like underline/strikethrough.
 
