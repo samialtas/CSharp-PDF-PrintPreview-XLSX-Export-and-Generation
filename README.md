@@ -29,6 +29,8 @@ The entire rendering pipeline is **built from scratch with zero third-party libr
       <b>Main Application UI</b><br>
       <img src="Screenshots/UI.png" alt="Main Application UI" width="400">
     </td>
+  </tr>
+  <tr> 
     <td align="center">
       <b>WYSIWYG Print Preview</b><br>
       <img src="Screenshots/print-preview.png" alt="Print Preview" width="400">
@@ -39,6 +41,8 @@ The entire rendering pipeline is **built from scratch with zero third-party libr
       <b>Identical PDF/A-1a Compliant Output</b><br>
       <img src="Screenshots/pdf-a1a-compliant-output.png" alt="PDF/A-1a Compliant Output" width="400">
     </td>
+  </tr>
+  <tr> 
     <td align="center">
       <b>Identical XLSX Native Format Output</b><br>
       <img src="Screenshots/xlsx-native-format-output.png" alt="XLSX Native Format Output" width="400">
