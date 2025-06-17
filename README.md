@@ -27,7 +27,7 @@ The entire rendering pipeline is **built from scratch with zero third-party libr
   <tr>
     <td align="center">
       <b>Main Application UI</b><br>
-      <img src="screenshots/UI.png" alt="Main Application UI" width="400">
+      <img src="Screenshots/UI.png" alt="Main Application UI" width="400">
     </td>
     <td align="center">
       <b>WYSIWYG Print Preview</b><br>
