@@ -1,6 +1,6 @@
-# 🚀 WYSIWYG Reports: Identical PDF, XLSX & Print Preview from a Single C# Codebase (Built from Scratch!)
+# 🚀 WYSIWYG Reports: Identical PDF, XLSX & Print Preview Output from a Single C# Codebase (Built from Scratch!)
 
-Tired of your PDF exports looking different from your print previews? Sick of wrestling with complex libraries just to generate a simple report? This project is the solution.
+Tired of your PDF, XLSX exports looking different from your print previews? Sick of wrestling with complex libraries just to generate a simple report? This project is the solution.
 
 This is a C# WinForms application that demonstrates how to generate reports with a **guaranteed identical appearance** across 🖼️ **Print Preview**, 📄 **PDF**, and 📊 **XLSX** outputs. What you see is *truly* what you get.
 
