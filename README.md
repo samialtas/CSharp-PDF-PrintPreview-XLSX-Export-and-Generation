@@ -1,6 +1,12 @@
+Excellent! Here is the complete, formatted README file with the new screenshot section added.
+
+Just copy and paste the entire block of code below into your `README.md` file on GitHub.
+
+---
+
 # 🚀 WYSIWYG Reports: Identical PDF, XLSX & Print Preview from a Single C# Codebase (Built from Scratch!)
 
-Tired of your PDF, XLSX exports looking different from your print previews? Sick of wrestling with complex libraries just to generate a simple report? This project is the solution.
+Tired of your PDF exports looking different from your print previews? Sick of wrestling with complex libraries just to generate a simple report? This project is the solution.
 
 This is a C# WinForms application that demonstrates how to generate reports with a **guaranteed identical appearance** across 🖼️ **Print Preview**, 📄 **PDF**, and 📊 **XLSX** outputs. What you see is *truly* what you get.
 
@@ -14,6 +20,31 @@ The entire rendering pipeline is **built from scratch with zero third-party libr
 *   **Shared Page Setup:** Page settings (margins, orientation, paper size) from a single `PageSetupDialog` are respected by all export formats.
 *   **PDF/A-1a Compliant PDF:** The generated PDF is a valid PDF/A-1a file, suitable for long-term archiving. It achieves this by manually building the document structure, embedding fonts, and including required metadata.
 *   **Native XLSX Output:** The generated Excel file is a native Office Open XML (`.xlsx`) document, so it opens without "Compatibility Mode" warnings.
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <b>Main Application UI</b><br>
+      <img src="screenshots/UI.png" alt="Main Application UI" width="400">
+    </td>
+    <td align="center">
+      <b>WYSIWYG Print Preview</b><br>
+      <img src="screenshots/print-preview.png" alt="Print Preview" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Identical PDF/A-1a Compliant Output</b><br>
+      <img src="screenshots/pdf-a1a-compliant-output.png" alt="PDF/A-1a Compliant Output" width="400">
+    </td>
+    <td align="center">
+      <b>Identical XLSX Native Format Output</b><br>
+      <img src="screenshots/xlsx-native-format-output.png" alt="XLSX Native Format Output" width="400">
+    </td>
+  </tr>
+</table>
 
 ## 🤔 How It Works: The "Capture & Replay" Method
 
@@ -46,6 +77,7 @@ This implementation focuses on the core features needed for simple, structured r
 | **Identical Page Setup**   |       ✅       |       ✅       |        ✅        | Margins, paper size, and orientation are identical. |
 | **PDF/A-1a Compliance**    |       ✅       |       --       |        --        | Basic compliance and metadata are implemented.     |
 | **Images**                 |       ❌       |       ❌       |        ❌        | Not implemented.                                   |
+| **Advanced PDF/A-1a Tags** |       ❌       |       --       |        --        | Complex structural/accessibility tags not implemented. |
 
 ## 💡 Why This Approach? (vs. 3rd Party Libraries)
 
