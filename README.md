@@ -2,7 +2,7 @@
 
 Tired of your PDF, XLSX exports looking different from your print previews? Sick of wrestling with complex libraries just to generate a simple report? This project is the solution.
 
-This is a C# WinForms application that demonstrates how to generate reports with a **guaranteed identical appearance** across 🖼️ **Print Preview**, 📄 **PDF**, and 📊 **XLSX** outputs. What you see is *truly* what you get.
+This is a C# WinForms application that demonstrates how to generate reports with a **guaranteed identical appearance** across 🖼️ **WinForms PrintPreview**, 📄 **Adobe Acrobat PDF**, and 📊 **Microsoft Office Excel XLSX** outputs. What you see is *truly* what you get.
 
 The entire rendering pipeline is **built from scratch with zero third-party libraries**. This project serves as a powerful example of how to take full control over your document generation process.
 
