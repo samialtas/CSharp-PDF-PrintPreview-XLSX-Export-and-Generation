@@ -1,4 +1,4 @@
-# WYSIWYG PDF, XLSX, and Print Preview for WinForms
+# WYSIWYG PDF, XLSX, and Print Preview for WinForms with No External Dependencies (No external libraries like iTextSharp)
 
 A C# WinForms project demonstrating a powerful technique for generating reports with a **guaranteed identical appearance** across Print Preview, exported PDF files, and exported XLSX spreadsheets. What you see in the print preview is *exactly* what you get in the final documents.
 
