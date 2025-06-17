@@ -89,4 +89,23 @@ This project offers a **lightweight, transparent, and educational alternative**.
 *   Projects where you need absolute control over the output.
 *   Situations where you want to avoid adding external dependencies.
 
+## 🚀 Future Roadmap & Potential Improvements
+
+This project provides a solid foundation, but there are many exciting ways it can be extended. Here are some of the planned and potential features for the future:
+
+#### 🎨 Core Drawing Features
+*   **Implement Image Support:** Add a `DrawImage` command to the `GraphicsRecorder` and implement the logic to embed image data (JPEG, PNG) into both PDF and XLSX files while maintaining the WYSIWYG principle.
+*   **Support for Additional Shapes:** Extend the system to handle other GDI+ primitives like `DrawEllipse`, `DrawArc`, and `DrawPolygon` for more complex diagrams and charts.
+*   **Improve Text Handling:** Add support for more advanced text rendering, such as text alignment (center/right), rotated text, and styles like underline/strikethrough.
+
+#### ⚡ Performance & Optimization
+*   **Introduce Font Subsetting:** A high-priority task. Currently, the entire font file is embedded in the PDF, leading to larger file sizes. Implementing font subsetting (embedding only the characters actually used) will drastically reduce the PDF size while maintaining compliance.
+*   **Background Processing:** For large reports, the export process can freeze the UI. Refactor the export logic to run on a background thread (`async/await`) with progress updates to keep the application responsive.
+
+#### 🏗️ Code Architecture & Quality
+*   **Modularize the Code:** Refactor the core `GraphicsRecorder`, PDF writer, and XLSX writer into a separate, reusable class library. This would allow other projects to easily consume this functionality.
+*   **Expand Unit Tests:** Create a comprehensive test suite that verifies the output for a given set of intermediate commands, ensuring that bug fixes or new features don't cause regressions.
+
+Contributions are welcome! If any of these features interest you, feel free to fork the repository and submit a pull request.
+
 Enjoy exploring the code.
