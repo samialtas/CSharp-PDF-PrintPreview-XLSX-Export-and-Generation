@@ -66,7 +66,7 @@ Instead of using different logic for each format, this project uses a unified re
 
 ## ✅ Feature Support
 
-This implementation focuses on the core features needed for simple, structured reports. It is intentionally kept simple and does not support all possible GDI+ or PDF/A features.
+This implementation focuses on the core features needed for simple, structured reports. It is intentionally kept simple and does not support all possible GDI+, XLSX or PDF/A features.
 
 | Feature                    | 📄 PDF         | 📊 XLSX        | 🖼️ Print Preview | Status                                             |
 | -------------------------- | :------------: | :------------: | :--------------: | -------------------------------------------------- |
