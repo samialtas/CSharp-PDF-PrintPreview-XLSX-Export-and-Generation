@@ -1,9 +1,3 @@
-Excellent! Here is the complete, formatted README file with the new screenshot section added.
-
-Just copy and paste the entire block of code below into your `README.md` file on GitHub.
-
----
-
 # 🚀 WYSIWYG Reports: Identical PDF, XLSX & Print Preview from a Single C# Codebase (Built from Scratch!)
 
 Tired of your PDF exports looking different from your print previews? Sick of wrestling with complex libraries just to generate a simple report? This project is the solution.
@@ -27,25 +21,25 @@ The entire rendering pipeline is **built from scratch with zero third-party libr
   <tr>
     <td align="center">
       <b>Main Application UI</b><br>
-      <img src="Screenshots/UI.png" alt="Main Application UI" width="400">
+      <img src="Screenshots/UI.png" alt="Main Application UI">
     </td>
   </tr>
   <tr> 
     <td align="center">
       <b>WYSIWYG Print Preview</b><br>
-      <img src="Screenshots/print-preview.png" alt="Print Preview" width="400">
+      <img src="Screenshots/print-preview.png" alt="Print Preview">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Identical PDF/A-1a Compliant Output</b><br>
-      <img src="Screenshots/pdf-a1a-compliant-output.png" alt="PDF/A-1a Compliant Output" width="400">
+      <img src="Screenshots/pdf-a1a-compliant-output.png" alt="PDF/A-1a Compliant Output">
     </td>
   </tr>
   <tr> 
     <td align="center">
       <b>Identical XLSX Native Format Output</b><br>
-      <img src="Screenshots/xlsx-native-format-output.png" alt="XLSX Native Format Output" width="400">
+      <img src="Screenshots/xlsx-native-format-output.png" alt="XLSX Native Format Output">
     </td>
   </tr>
 </table>
@@ -95,4 +89,4 @@ This project offers a **lightweight, transparent, and educational alternative**.
 *   Projects where you need absolute control over the output.
 *   Situations where you want to avoid adding external dependencies.
 
-Enjoy exploring the code
+Enjoy exploring the code.
