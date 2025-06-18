@@ -38,7 +38,7 @@ This application is built using .NET Framework 4.8 and includes functionalities 
 ## Best Practices for Secure Usage
 - **Run in a Trusted Environment**: Execute the application on a trusted system to prevent unauthorized access to system resources via native API calls.
 - **Validate Output Files**: Ensure output file paths are in secure, user-controlled directories to avoid overwriting critical system files.
-- **Keep .NET Framework Updated**: Use the latest patched version of .NET Framework 4.8 to mitigate known vulnerabilities in the framework.
+- **Keep .NET Framework Updated**: Use the latest patched version of .NET Framework 4.8 to mitigate known vulnerabilities in the framework. Also it is highly recommended to upgrade this project to a newer version of .NET Framework in order to execute more secure and faster code.
 - **Limit Permissions**: Run the application with least-privilege permissions to minimize the impact of potential exploits.
 
 ## Reporting a Vulnerability
