@@ -2,11 +2,11 @@
 
 ## Supported Versions
 
-The following versions of the `PDF_PrintPreview_XLSX_Export` application are currently supported with security updates:
+The following versions of the `C# Unified Rendering: Identical PDF, XLSX & WinForms PrintPreview from Scratch` application are currently supported with security updates:
 
 | Version | Supported          |
 |---------|--------------------|
-| 1.x     | ✅                 |
+| Pre-Release     | ✅                 |
 
 ## Security Considerations
 
@@ -44,7 +44,7 @@ This application is built using .NET Framework 4.8 and includes functionalities 
 ## Reporting a Vulnerability
 If you discover a security vulnerability in this project, please report it responsibly by following these steps:
 1. **Do Not Open a Public Issue**: To protect users, do not disclose vulnerabilities in public GitHub issues or discussions.
-2. **Contact the Maintainer**: Email the vulnerability details to samialtas@gmail.com with the subject "Security Vulnerability in PDF_PrintPreview_XLSX_Export".
+2. **Contact the Maintainer**: Email the vulnerability details to samialtas@gmail.com with the subject "Security Vulnerability in C# Unified Rendering: Identical PDF, XLSX & WinForms PrintPreview from Scratch".
 3. **Provide Details**: Include a detailed description of the vulnerability, steps to reproduce, and potential impact.
 4. **Response Time**: Expect an acknowledgment within 48 hours. We aim to address and resolve reported vulnerabilities promptly.
 
